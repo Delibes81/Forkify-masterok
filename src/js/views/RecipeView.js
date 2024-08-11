@@ -1,10 +1,7 @@
-
+import icons from 'url:../../img/icons.svg';
 class recipeView {
     
-    #parentElement;
-    
-    recipeContainer = document.querySelector('.recipe');
-   
+  #parentElement = document.querySelector('.recipe');
     #data;
 
     renderSpinner() {
