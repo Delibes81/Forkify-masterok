@@ -11,7 +11,7 @@
 75C:\Users\pascu\Documents\Forkify-master\node_modules\js-tokens\package.json133677344409283767 0
 81C:\Users\pascu\Documents\Forkify-master\node_modules\type-fest\source\except.d.ts133677344420603732 0
 116C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json133677344441009568 0
-44C:\Users\pascu\Documents\Forkify-master\dist133678897984391694 1
+44C:\Users\pascu\Documents\Forkify-master\dist133678904370887785 1
 61C:\Users\pascu\Documents\Forkify-master\src\sass\_header.scss133677343561717268 0
 87C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\codeframe\src\codeframe.js133677344426498071 0
 100C:\Users\pascu\Documents\Forkify-master\node_modules\csso\node_modules\mdn-data\api\inheritance.json133677344419516632 0
@@ -23,7 +23,7 @@
 61C:\Users\pascu\Documents\Forkify-master\node_modules\error-ex133677344412954023 1
 94C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\css-filters.js133677344439403832 0
 86C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\workers\lib\WorkerFarm.js133677344429669654 0
-60C:\Users\pascu\Documents\Forkify-master\src\js\controller.js133678899009879768 0
+60C:\Users\pascu\Documents\Forkify-master\src\js\controller.js133678904779123407 0
 84C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\regions\GR.js133677344446201013 0
 82C:\Users\pascu\Documents\Forkify-master\node_modules\@swc\helpers\cjs\_extends.cjs133677344429330561 0
 98C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\optimizer-svgo\node_modules\.bin\svgo133677344454121469 0
@@ -6036,6 +6036,6 @@
 63C:\Users\pascu\Documents\Forkify-master\dist\icons.dfd7a6db.svg133678897984232101 0
 55C:\Users\pascu\Documents\Forkify-master\dist\index.html133678897984271993 0
 63C:\Users\pascu\Documents\Forkify-master\dist\icons.21bad73c.svg133678897984301915 0
-62C:\Users\pascu\Documents\Forkify-master\dist\index.e37f48ea.js133678897984341805 0
 67C:\Users\pascu\Documents\Forkify-master\dist\index.f7626f62.css.map133678897984381712 0
-66C:\Users\pascu\Documents\Forkify-master\dist\index.e37f48ea.js.map133678897984381712 0
+62C:\Users\pascu\Documents\Forkify-master\dist\index.e37f48ea.js133678904370837905 0
+66C:\Users\pascu\Documents\Forkify-master\dist\index.e37f48ea.js.map133678904370877780 0

@@ -608,9 +608,9 @@ async function controlRecipes() {
 }
 async function controlSearchResults() {
     try {
-        (0, _resultsViewJsDefault.default).renderSpinner();
         const query = (0, _searchViewsDefault.default).getQuery();
         if (!query) return;
+        (0, _resultsViewJsDefault.default).renderSpinner();
         await _modelJs.loadSearchResults(query);
         (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage());
         (0, _paginationviewsJsDefault.default).render(_modelJs.state.search);
