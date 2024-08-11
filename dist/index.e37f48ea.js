@@ -588,26 +588,39 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _modelJs = require("../js/model.js");
 var _recipeViewJs = require("./views/RecipeView.js");
 var _recipeViewJsDefault = parcelHelpers.interopDefault(_recipeViewJs);
+var _searchViews = require("./views/searchViews");
+var _searchViewsDefault = parcelHelpers.interopDefault(_searchViews);
 async function controlRecipes() {
     try {
         let id = window.location.hash;
         id = id.slice(1);
         if (!id) return;
         (0, _recipeViewJsDefault.default).renderSpinner();
-        console.log(id);
         await _modelJs.loadRecipe(id);
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     } catch (error) {
         (0, _recipeViewJsDefault.default).renderError();
     }
 }
+async function controlSearchResults() {
+    try {
+        const query = (0, _searchViewsDefault.default).getQuery();
+        if (!query) return;
+        await _modelJs.loadSearchResults(query);
+        console.log(_modelJs.state.search.results);
+    } catch (err) {
+        console.error(err);
+    }
+}
+controlSearchResults();
 function init() {
     (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
+    (0, _searchViewsDefault.default).addHandlerSearch(controlSearchResults);
 }
 init(); // https://forkify-api.herokuapp.com/v2
  ///////////////////////////////////////
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../js/model.js":"Y4A21","./views/RecipeView.js":"aFEMw"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../js/model.js":"Y4A21","./views/RecipeView.js":"aFEMw","./views/searchViews":"3TF3w"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -646,7 +659,11 @@ parcelHelpers.export(exports, "loadSearchResults", ()=>loadSearchResults);
 var _configJs = require("../js/config.js");
 var _helpersJs = require("./helpers.js");
 const state = {
-    recipe: {}
+    recipe: {},
+    search: {
+        query: "",
+        results: []
+    }
 };
 async function loadRecipe(id) {
     try {
@@ -670,6 +687,7 @@ async function loadRecipe(id) {
 }
 async function loadSearchResults(query) {
     try {
+        state.search.query = query;
         const data = await (0, _helpersJs.getJSON)(`${(0, _configJs.API_URL)}/?search=${query}`);
         state.search.results = data.data.recipes.map((rec)=>{
             return {
@@ -684,7 +702,6 @@ async function loadSearchResults(query) {
         throw err;
     }
 }
-loadSearchResults("pizza");
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../js/config.js":"k5Hzs","./helpers.js":"hGI1E"}],"k5Hzs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -1177,6 +1194,32 @@ Fraction.primeFactors = function(n) {
 };
 module.exports.Fraction = Fraction;
 
-},{}]},["hycaY","aenu9"], "aenu9", "parcelRequire3a11")
+},{}],"3TF3w":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+class SearchView {
+    #parentEl = document.querySelector(".search");
+    getQuery() {
+        const query = this.#parentEl.querySelector(".search__field").value;
+        this.#parentEl.querySelector(".search__field").value;
+        this.#clearInput();
+        return query;
+    }
+    #clearInput() {
+        this.#parentEl.querySelector(".search__field").value = "";
+    }
+    addHandlerSearch(handler) {
+        this.#parentEl.addEventListener("submit", function(e) {
+            e.preventDefault();
+            handler();
+        });
+    }
+    addHandlerClick(handler) {
+        this.#parentEl.addEventListener("click", handler);
+    }
+}
+exports.default = new SearchView();
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["hycaY","aenu9"], "aenu9", "parcelRequire3a11")
 
 //# sourceMappingURL=index.e37f48ea.js.map
