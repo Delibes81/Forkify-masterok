@@ -598,14 +598,13 @@ async function controlRecipes() {
         await _modelJs.loadRecipe(id);
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     } catch (error) {
-        alert(error);
+        (0, _recipeViewJsDefault.default).renderError();
     }
 }
-window.addEventListener("hashchange", controlRecipes);
-[
-    "hashchange",
-    "load"
-].forEach((ev)=>window.addEventListener(ev, controlRecipes)); // https://forkify-api.herokuapp.com/v2
+function init() {
+    (0, _recipeViewJsDefault.default).addHandlerRender(controlRecipes);
+}
+init(); // https://forkify-api.herokuapp.com/v2
  ///////////////////////////////////////
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../js/model.js":"Y4A21","./views/RecipeView.js":"aFEMw"}],"gkKU3":[function(require,module,exports) {
@@ -643,6 +642,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
 parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe);
+parcelHelpers.export(exports, "loadSearchResults", ()=>loadSearchResults);
 var _configJs = require("../js/config.js");
 var _helpersJs = require("./helpers.js");
 const state = {
@@ -665,10 +665,26 @@ async function loadRecipe(id) {
         state.recipe = recipe;
         console.log(state.recipe);
     } catch (err) {
+        throw err;
+    }
+}
+async function loadSearchResults(query) {
+    try {
+        const data = await (0, _helpersJs.getJSON)(`${(0, _configJs.API_URL)}/?search=${query}`);
+        state.search.results = data.data.recipes.map((rec)=>{
+            return {
+                id: rec.id,
+                title: rec.title,
+                publisher: rec.publisher,
+                image: rec.image_url
+            };
+        });
+    } catch (err) {
         console.log(`${err} \u{1F4A5}\u{1F4A5}\u{1F4A5}\u{1F4A5}`);
         throw err;
     }
 }
+loadSearchResults("pizza");
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../js/config.js":"k5Hzs","./helpers.js":"hGI1E"}],"k5Hzs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -693,7 +709,7 @@ const timeout = function(s) {
 async function getJSON(url) {
     try {
         const fetchPro = fetch(url);
-        const res = await Promise.race([
+        const resp = await Promise.race([
             fetchPro,
             timeout((0, _configJs.TIMEOUT_SEC))
         ]);
@@ -714,6 +730,33 @@ var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class recipeView {
     #parentElement = document.querySelector(".recipe");
     #data;
+    renderError(message = this._errorMessage) {
+        const markup = `
+      <div class="error">
+            <div>
+              <svg>
+                <use href="${(0, _iconsSvgDefault.default)}#icon-alert-triangle"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>`;
+        this.#parentElement.innerHTML = "";
+        this.#parentElement.insertAdjacentHTML("afterbegin", markup);
+    }
+    renderMessage(message = this._message) {
+        const markup = `
+      <div class="error">
+            <div>
+              <svg>
+                <use href="${(0, _iconsSvgDefault.default)}#icon-smile"></use>
+              </svg>
+            </div>
+            <p>${message}</p>
+          </div>`;
+        this.#parentElement.innerHTML = "";
+        this.#parentElement.insertAdjacentHTML("afterbegin", markup);
+    }
+    _errorMessage = "We could not find that recipe. Please try another one!";
     renderSpinner() {
         const markup = `               
           <div class="spinner">
@@ -741,6 +784,12 @@ class recipeView {
         `;
         this.#clear();
         this.#parentElement.insertAdjacentHTML("afterbegin", markup);
+    }
+    addHandlerRender(handler) {
+        [
+            "hashchange",
+            "load"
+        ].forEach((ev)=>window.addEventListener(ev, handler));
     }
     #clear() {
         this.#parentElement.innerHTML = "";

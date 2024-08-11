@@ -12,7 +12,7 @@ const timeout = function (s) {
 export async function getJSON(url) {
     try {
       const fetchPro = fetch(url); 
-      const res = await Promise.race([fetchPro,timeout(TIMEOUT_SEC)]);
+      const resp = await Promise.race([fetchPro,timeout(TIMEOUT_SEC)]);
       if (!resp.ok) throw new Error(`Recipe not found (${resp.status})`);
       const data = await resp.json();
       return data;

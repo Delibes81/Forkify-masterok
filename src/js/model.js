@@ -25,7 +25,27 @@ export async function loadRecipe(id) {
     console.log(state.recipe);
     
   } catch (err) {
+    throw err;
+  }
+}
+
+export async function loadSearchResults(query) {
+  try {
+    const data = await getJSON(`${API_URL}/?search=${query}`);
+
+    state.search.results = data.data.recipes.map(rec => {
+      return {
+        id: rec.id,
+        title: rec.title,
+        publisher: rec.publisher,
+        image: rec.image_url,
+      };
+      console.log(state.search.results);
+    });
+
+  } catch (err) {
     console.log(`${err} 💥💥💥💥`);
     throw err;
   }
 }
+loadSearchResults('pizza');
