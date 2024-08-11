@@ -1,11 +1,11 @@
-6024
+6035
 75C:\Users\pascu\Documents\Forkify-master\node_modules\domelementtype\lib\esm133677344417013255 1
 96C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map133677344423466135 0
 91C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree\cjs\syntax\node\Condition.cjs133677344422478754 0
 62C:\Users\pascu\Documents\Forkify-master\node_modules\env-paths133677344414469997 1
 61C:\Users\pascu\Documents\Forkify-master\node_modules\css-what133677344422498702 1
 50C:\Users\pascu\Documents\Forkify-master\.gitignore133677343550927708 0
-52C:\Users\pascu\Documents\Forkify-master\package.json133677343552034769 0
+52C:\Users\pascu\Documents\Forkify-master\package.json133678174888742842 0
 103C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\input-file-directory.js133677344447038796 0
 85C:\Users\pascu\Documents\Forkify-master\node_modules\sass\types\legacy\exception.d.ts133677344433978232 0
 90C:\Users\pascu\Documents\Forkify-master\node_modules\posthtml\node_modules\posthtml-parser133677344415297809 1
@@ -16,7 +16,7 @@
 75C:\Users\pascu\Documents\Forkify-master\node_modules\js-tokens\package.json133677344409283767 0
 81C:\Users\pascu\Documents\Forkify-master\node_modules\type-fest\source\except.d.ts133677344420603732 0
 116C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\package.json133677344441009568 0
-44C:\Users\pascu\Documents\Forkify-master\dist133678166287054385 1
+44C:\Users\pascu\Documents\Forkify-master\dist133678184255233745 1
 61C:\Users\pascu\Documents\Forkify-master\src\sass\_header.scss133677343561717268 0
 87C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\codeframe\src\codeframe.js133677344426498071 0
 100C:\Users\pascu\Documents\Forkify-master\node_modules\csso\node_modules\mdn-data\api\inheritance.json133677344419516632 0
@@ -41,12 +41,12 @@
 86C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree\lib\syntax\node\index.js133677344441019545 0
 81C:\Users\pascu\Documents\Forkify-master\node_modules\semver\functions\rcompare.js133677344427495416 0
 79C:\Users\pascu\Documents\Forkify-master\node_modules\semver\functions\coerce.js133677344414769211 0
-57C:\Users\pascu\Documents\Forkify-master\package-lock.json133678122680950854 0
+57C:\Users\pascu\Documents\Forkify-master\package-lock.json133678174889560627 0
 69C:\Users\pascu\Documents\Forkify-master\node_modules\lmdb\binding.gyp133677344436611239 0
 82C:\Users\pascu\Documents\Forkify-master\node_modules\@swc\helpers\esm\_to_array.js133677344439463701 0
 90C:\Users\pascu\Documents\Forkify-master\node_modules\dom-serializer\lib\esm\index.d.ts.map133677344417880952 0
 106C:\Users\pascu\Documents\Forkify-master\node_modules\@swc\helpers\_\_class_private_field_init\package.json133677344441707714 0
-52C:\Users\pascu\Documents\Forkify-master\node_modules133678122680041750 1
+52C:\Users\pascu\Documents\Forkify-master\node_modules133678174888702933 1
 87C:\Users\pascu\Documents\Forkify-master\node_modules\mdn-data\css\selectors.schema.json133677344423755380 0
 84C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\regions\IN.js133677344446909145 0
 99C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\css-font-palette.js133677344439533481 0
@@ -61,7 +61,7 @@
 79C:\Users\pascu\Documents\Forkify-master\node_modules\msgpackr-extract\README.md133677344415836380 0
 70C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data133677344445612578 1
 95C:\Users\pascu\Documents\Forkify-master\node_modules\svgo\plugins\removeAttributesBySelector.js133677344432173011 0
-46C:\Users\pascu\Documents\Forkify-master\src\js133677343560266253 1
+46C:\Users\pascu\Documents\Forkify-master\src\js133678184059156680 1
 76C:\Users\pascu\Documents\Forkify-master\node_modules\ordered-binary\index.js133677344414360300 0
 79C:\Users\pascu\Documents\Forkify-master\node_modules\css-select\lib\sort.js.map133677344431245472 0
 93C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\profiler\lib\SamplingProfiler.js133677344415038491 0
@@ -130,7 +130,7 @@
 68C:\Users\pascu\Documents\Forkify-master\node_modules\css-what\lib\es133677344426478123 1
 77C:\Users\pascu\Documents\Forkify-master\node_modules\@babel\highlight\LICENSE133677344409942011 0
 90C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\svg-img.js133677344450798813 0
-55C:\Users\pascu\Documents\Forkify-master\src\js\model.js133677343560206397 0
+55C:\Users\pascu\Documents\Forkify-master\src\js\model.js133678184252838210 0
 73C:\Users\pascu\Documents\Forkify-master\node_modules\js-yaml\package.json133677344426986781 0
 71C:\Users\pascu\Documents\Forkify-master\node_modules\clone\package.json133677344409433361 0
 104C:\Users\pascu\Documents\Forkify-master\node_modules\htmlnano\lib\modules\deduplicateAttributeValues.cjs133677344416145560 0
@@ -140,7 +140,7 @@
 65C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite133677344453543006 1
 99C:\Users\pascu\Documents\Forkify-master\node_modules\css-select\node_modules\entities\lib\encode.js133677344420494027 0
 85C:\Users\pascu\Documents\Forkify-master\node_modules\postcss-value-parser\lib\unit.js133677344414968677 0
-52C:\Users\pascu\Documents\Forkify-master\src\js\views133677343560326080 1
+52C:\Users\pascu\Documents\Forkify-master\src\js\views133678183649319503 1
 110C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\css-container-queries-style.js133677344438735596 0
 57C:\Users\pascu\Documents\Forkify-master\node_modules\@swc133678122680051725 1
 74C:\Users\pascu\Documents\Forkify-master\node_modules\posthtml\package.json133677344413761881 0
@@ -150,7 +150,7 @@
 92C:\Users\pascu\Documents\Forkify-master\node_modules\svgo\plugins\cleanupEnableBackground.js133677344429200893 0
 69C:\Users\pascu\Documents\Forkify-master\node_modules\dotenv\README.md133677344414779184 0
 89C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\core\test\fixtures\bundle.js133677344428283333 0
-66C:\Users\pascu\Documents\Forkify-master\src\js\views\RecipeView.js133678166302074367 0
+66C:\Users\pascu\Documents\Forkify-master\src\js\views\RecipeView.js133678176383512208 0
 63C:\Users\pascu\Documents\Forkify-master\node_modules\css-select133677344432232851 1
 69C:\Users\pascu\Documents\Forkify-master\node_modules\has-flag\license133677344413352963 0
 83C:\Users\pascu\Documents\Forkify-master\node_modules\semver\functions\prerelease.js133677344427136382 0
@@ -212,7 +212,7 @@
 91C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\package-manager\lib\types.d.ts133677344430188279 0
 61C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree133677344444081427 1
 86C:\Users\pascu\Documents\Forkify-master\node_modules\postcss-value-parser\lib\parse.js133677344412096293 0
-71C:\Users\pascu\Documents\Forkify-master\node_modules\.package-lock.json133678122681666498 0
+71C:\Users\pascu\Documents\Forkify-master\node_modules\.package-lock.json133678174890358500 0
 109C:\Users\pascu\Documents\Forkify-master\node_modules\css-select\node_modules\domutils\lib\esm\querying.js.map133677344428163645 0
 86C:\Users\pascu\Documents\Forkify-master\node_modules\semver\functions\compare-loose.js133677344416225349 0
 81C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\events\src\errors.js133677344415646881 0
@@ -269,7 +269,7 @@
 84C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree\lib\generator\index.js133677344440730304 0
 85C:\Users\pascu\Documents\Forkify-master\node_modules\term-size\vendor\macos\term-size133677344414479975 0
 104C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\core\test\fixtures\config-extends-not-found133677344421411583 1
-60C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel133678122680061710 1
+60C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel133678174888712885 1
 79C:\Users\pascu\Documents\Forkify-master\node_modules\dotenv-expand\package.json133677344409313683 0
 82C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features.js133677344445622551 0
 82C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\markdown-ansi\LICENSE133677344409812352 0
@@ -508,6 +508,7 @@
 85C:\Users\pascu\Documents\Forkify-master\node_modules\node-gyp-build-optional-packages133677344415616955 1
 86C:\Users\pascu\Documents\Forkify-master\node_modules\@swc\helpers\src\_await_value.mjs133677344445652504 0
 84C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\regions\SI.js133677344450459733 0
+76C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\package.json133678174888381460 0
 99C:\Users\pascu\Documents\Forkify-master\node_modules\.bin\node-gyp-build-optional-packages-test.ps1133677344454131447 0
 72C:\Users\pascu\Documents\Forkify-master\node_modules\parse-json\index.js133677344410400798 0
 96C:\Users\pascu\Documents\Forkify-master\node_modules\@swc\helpers\_\_possible_constructor_return133677344444430924 1
@@ -1802,7 +1803,7 @@
 79C:\Users\pascu\Documents\Forkify-master\node_modules\nth-check\lib\parse.js.map133677344422678225 0
 69C:\Users\pascu\Documents\Forkify-master\node_modules\msgpackr\pack.js133677344422179542 0
 76C:\Users\pascu\Documents\Forkify-master\node_modules\normalize-path\index.js133677344410400798 0
-65C:\Users\pascu\Documents\Forkify-master\dist\favicon.8b2f57bf.png133678165356940369 0
+65C:\Users\pascu\Documents\Forkify-master\dist\favicon.8b2f57bf.png133678184254808279 0
 71C:\Users\pascu\Documents\Forkify-master\node_modules\csso\lib\syntax.js133677344434676373 0
 83C:\Users\pascu\Documents\Forkify-master\node_modules\nth-check\lib\esm\compile.d.ts133677344423625744 0
 102C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\css-text-align-last.js133677344442475676 0
@@ -2155,7 +2156,7 @@
 89C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\transformer-babel\lib\jsx.js133677344420055195 0
 74C:\Users\pascu\Documents\Forkify-master\node_modules\js-yaml\lib\common.js133677344414679449 0
 108C:\Users\pascu\Documents\Forkify-master\node_modules\lmdb\dependencies\lz4\lib\dll\example\fullbench-dll.sln133677344439134541 0
-63C:\Users\pascu\Documents\Forkify-master\dist\index.f7626f62.css133678165357050070 0
+63C:\Users\pascu\Documents\Forkify-master\dist\index.f7626f62.css133678184255081340 0
 82C:\Users\pascu\Documents\Forkify-master\node_modules\csso\lib\replace\Dimension.js133677344432791368 0
 100C:\Users\pascu\Documents\Forkify-master\node_modules\lmdb\dependencies\lz4\lib\dll\example\README.md133677344438935082 0
 101C:\Users\pascu\Documents\Forkify-master\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb133677344439353959 1
@@ -3267,7 +3268,7 @@
 83C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\cache\lib\constants.js133677344410929413 0
 115C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\core\test\fixtures\custom-format-mismatch\package.json133677344440700385 0
 93C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree\lib\syntax\node\TypeSelector.js133677344443453077 0
-62C:\Users\pascu\Documents\Forkify-master\dist\logo.726d37a8.png133678165357050070 0
+62C:\Users\pascu\Documents\Forkify-master\dist\logo.726d37a8.png133678184254798136 0
 96C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree\lib\syntax\node\NestingSelector.js133677344442006923 0
 70C:\Users\pascu\Documents\Forkify-master\node_modules\chokidar\index.js133677344414709365 0
 82C:\Users\pascu\Documents\Forkify-master\node_modules\@swc\helpers\esm\_defaults.js133677344438366574 0
@@ -3367,6 +3368,7 @@
 82C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree\cjs\utils\string.cjs133677344437159777 0
 115C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\core\test\fixtures\custom-targets-distdir\package.json133677344440710367 0
 84C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\regions\VI.js133677344451967197 0
+74C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\index.html133678174888451270 0
 79C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree\cjs\utils\url.cjs133677344438207010 0
 126C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeHiddenElems.js133677344430198249 0
 92C:\Users\pascu\Documents\Forkify-master\node_modules\css-tree\cjs\tokenizer\adopt-buffer.cjs133677344411188713 0
@@ -3900,6 +3902,7 @@
 91C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\svg-html.js133677344450768903 0
 89C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\dist\unpacker\agents.js133677344420194806 0
 91C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\dist\unpacker\browsers.js133677344433569306 0
+73C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\README.md133678174888401414 0
 90C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\workers\test\cpuCount.test.js133677344421631002 0
 98C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\dist\unpacker\browserVersions.js133677344433838588 0
 91C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\dist\unpacker\features.js133677344445632523 0
@@ -4483,6 +4486,7 @@
 88C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\woff2.js133677344453144062 0
 88C:\Users\pascu\Documents\Forkify-master\node_modules\@swc\helpers\_\_array_like_to_array133677344440241614 1
 98C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\x-doc-messaging.js133677344453283706 0
+88C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\releases\fraction-0.2.js133678174888653063 0
 87C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\xhr2.js133677344453313615 0
 81C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\logger\src\Logger.js133677344412784478 0
 88C:\Users\pascu\Documents\Forkify-master\node_modules\caniuse-lite\data\features\xhtml.js133677344453323599 0
@@ -5255,6 +5259,7 @@
 94C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\packager-html\lib\HTMLPackager.js133677344410809712 0
 77C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\packager-css\lib133677344410480625 1
 81C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\packager-css\LICENSE133677344409702646 0
+72C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\releases133678174888643115 1
 77C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\packager-css\src133677344412265847 1
 115C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\cleanupIDs.js133677344418569129 0
 87C:\Users\pascu\Documents\Forkify-master\node_modules\@parcel\package-manager\index.d.ts133677344429978833 0
@@ -6017,9 +6022,15 @@
 64C:\Users\pascu\Documents\Forkify-master\dist\forkify.3464ddca.js133677343555671310 0
 68C:\Users\pascu\Documents\Forkify-master\dist\forkify.3464ddca.js.map133677343555950566 0
 62C:\Users\pascu\Documents\Forkify-master\dist\index.62406edb.js133677343556539015 0
-63C:\Users\pascu\Documents\Forkify-master\dist\icons.21bad73c.svg133678165356940369 0
-67C:\Users\pascu\Documents\Forkify-master\dist\index.f7626f62.css.map133678165357079978 0
-63C:\Users\pascu\Documents\Forkify-master\dist\icons.dfd7a6db.svg133678165357249524 0
-55C:\Users\pascu\Documents\Forkify-master\dist\index.html133678165357249524 0
-62C:\Users\pascu\Documents\Forkify-master\dist\index.e37f48ea.js133678166287024463 0
-66C:\Users\pascu\Documents\Forkify-master\dist\index.e37f48ea.js.map133678166287044434 0
+63C:\Users\pascu\Documents\Forkify-master\node_modules\fractional133678174888461252 1
+79C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\array_mixins.js133678174888411390 0
+72C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\index.js133678174888431320 0
+72C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\tests.js133678174888441299 0
+88C:\Users\pascu\Documents\Forkify-master\node_modules\fractional\releases\fraction-0.1.js133678174888634001 0
+56C:\Users\pascu\Documents\Forkify-master\src\js\config.js133678184116170633 0
+63C:\Users\pascu\Documents\Forkify-master\dist\icons.21bad73c.svg133678184254695273 0
+55C:\Users\pascu\Documents\Forkify-master\dist\index.html133678184255017239 0
+67C:\Users\pascu\Documents\Forkify-master\dist\index.f7626f62.css.map133678184255112731 0
+62C:\Users\pascu\Documents\Forkify-master\dist\index.e37f48ea.js133678184255186345 0
+63C:\Users\pascu\Documents\Forkify-master\dist\icons.dfd7a6db.svg133678184255186345 0
+66C:\Users\pascu\Documents\Forkify-master\dist\index.e37f48ea.js.map133678184255220482 0
