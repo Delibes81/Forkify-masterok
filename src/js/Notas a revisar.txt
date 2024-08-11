@@ -1,0 +1,2 @@
+Revisar la variable recipe( avance 1 pide que se declare variable metodo y en avance 2 pide que se declare la variable const decosntruyendo recipe)
+revisar estructura de recipeView orden y funcionalidad
